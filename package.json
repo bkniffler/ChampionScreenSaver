@@ -1,0 +1,23 @@
+{
+    "name": "League of Legends - Champions Slider",
+    "description": "A champion screensaver for League of Legends fans.",
+    "author": {
+        "name" : "Benjamin Kniffler",
+        "email" : "bkniffler@me.com",
+        "url" : "https://github.com/bkniffler"
+    },
+    "repository": {
+        "type": "git",
+        "url" : "https://github.com/bkniffler/ChampionScreenSaver.git"
+    },
+    "main": "index.html",
+    "window": {
+        "show": false,
+        "position": "center",
+        "width": 500,
+        "height": 500,
+        //"kiosk": true,
+        "fullscreen": true,
+        "toolbar": false
+    }
+}

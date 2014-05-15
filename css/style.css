@@ -1,0 +1,50 @@
+body{
+    background: black;
+    position:fixed;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    margin:0px;
+    width: 100%;
+    display: table;
+    height: 100%;
+
+    color: wheat;
+}
+
+.nocursor{
+    cursor: none;
+}
+
+#container
+{
+    display: table-row;
+}
+
+.slot
+{
+    display: table-cell;
+    /*border: 1px dashed white;*/
+    vertical-align:middle;
+    text-align: center;
+    position: relative;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottombottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.1)));
+}
+
+.slot:last-child{
+    /*border-right: 0px;*/
+}
+
+.champion
+{
+    position: absolute;
+    width: 100%;
+    background-size: 95% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*border: 1px dashed white;*/
+    top: 0; left: 0; bottom: 0; right: 0;
+    z-index: 0;
+    line-height: 0px; /* crucial for bottom padding 0 !!! */
+}
