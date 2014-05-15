@@ -9,7 +9,11 @@ https://rawgit.com/bkniffler/ChampionScreenSaver/master/index.html?style=fade
 
 Installation
 ===================
+<<<<<<< HEAD
 Mac:
+=======
+Mac: 
+>>>>>>> FETCH_HEAD
 - Download WebXSaverII
 - Download https://github.com/bkniffler/ChampionScreenSaver/blob/master/bin/ChampionScreenSaver.zip
 - Put its content wherever you like
@@ -19,6 +23,7 @@ Win:
 - Download https://github.com/bkniffler/ChampionScreenSaver/blob/master/bin/ChampionScreenSaverWin.zip
 - Put its content wherever you like
 - Right click ChampionScreenSaverWin.scr and install
+<<<<<<< HEAD
 
 Linux:
 - I have no idea, but if it's possible to use html as a screensaver, the Mac procedure should apply
@@ -106,3 +111,5 @@ imageStyle: "tile",
 size: 95,
 // Color name or hex
 color: "black"
+=======
+>>>>>>> FETCH_HEAD
