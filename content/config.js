@@ -15,7 +15,7 @@ var styles = {
         // Direction of champion change (random, leftToRight, rightToLeft)
         direction: "random",
         // Image style
-        imageStyle: "tile",
+        imageStyle: "splash",
         // Size of champion images in percentage
         size: 95,
         // Color name or hex
@@ -37,7 +37,7 @@ var styles = {
         // Direction of champion change (random, leftToRight, rightToLeft)
         direction: "leftToRight",
         // Image style
-        imageStyle: "tile",
+        imageStyle: "splash",
         // Size of champion images in percentage
         size: 95,
         // Color name or hex

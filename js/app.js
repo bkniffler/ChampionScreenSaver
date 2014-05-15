@@ -89,13 +89,15 @@ function mainController($scope, $timeout, $window, $http){
     }
 
     // View methods
-    $scope.getImage = function(champion){
+    $scope.getImage = function(champion, skin){
         if(champion == undefined) return;
-        return "content/" + $scope.options.imageStyle + "/" + champion.name + ".jpg";
+        return "content/" + $scope.options.imageStyle + "/" + champion + ".jpg";
     };
 
     // Get champions from /content/champions.js
-    $scope.champions = champions;
+    $scope.champions = [];
+    champions.map(function(champion){return champion.skins.map(function(skin){ $scope.champions.push(champion.name + "_" + skin); return;})});
+    console.log($scope.champions );
     // Champions controller
     var championsCtrl = {
         // Champions

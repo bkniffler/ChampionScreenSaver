@@ -7,7 +7,7 @@ Preview
 ===================
 https://rawgit.com/bkniffler/ChampionScreenSaver/master/index.html?style=fade
 https://rawgit.com/bkniffler/ChampionScreenSaver/master/index.html?style=slide
-(slide can suffer from performance issues due to heavy .css animations)
+(slide might suffer from performance issues due to heavy .css animations)
 
 Installation
 ===================
@@ -81,7 +81,7 @@ mode: "all",
 // Direction of champion change (random, leftToRight, rightToLeft)
 direction: "random",
 // Image style
-imageStyle: "tile",
+imageStyle: "splash",
 // Size of champion images in percentage
 size: 95,
 // Color name or hex
@@ -104,11 +104,59 @@ mode: "all",
 // Direction of champion change (random, leftToRight, rightToLeft)
 direction: "leftToRight",
 // Image style
-imageStyle: "tile",
+imageStyle: "splash",
 // Size of champion images in percentage
 size: 95,
 // Color name or hex
 color: "black"
+```
+
+Contribution:
+===================
+The current version does only have very few images. You're very welcome to contribute. Just fork the project and give me a pull request or send me the pictures as a zipped file via message.
+
+Add champions and skins as
+```
+- Splash (pictures with solid border), size: 378x1080
+- Classic (pictures with gradient border), size 308x560
+```
+Name these "[name of champion]_[skin number].jpg", e.g. Aatrox_0.jpg, Aatrox_1.jpg, Lux_0.jpg, ...
+The images can be found under League of Legends\RADS\projects\lol_air_client\releases\0.0.1.88\deploy\assets\images\champions
+
+
+Now edit the content/champions.js file and add these skins
+```
+var champions = [{
+    name: "Aatrox",
+    skins: [0, 1]
+}, {
+    name: "Ahri",
+    skins: [0, 1]
+}, {
+    name: "Akali",
+    skins: [0, 1]
+}, {
+    name: "Alistar",
+    skins: [0, 1]
+}, {
+    name: "Amumu",
+    skins: [0, 1]
+}, {
+    name: "Anivia",
+    skins: [0, 1]
+},{
+    name: "Annie",
+    skins: [0, 1]
+}, {
+    name: "Ashe",
+    skins: [0, 1]
+}, {
+    name: "Brand",
+    skins: [0, 1]
+}, {
+    name: "Caitlyn",
+    skins: [0, 1]
+}]
 ```
 
 Libraries used:
@@ -117,3 +165,13 @@ Libraries used:
 - Underscore.js (as a helper)
 - Animate.css (for groovy animations)
 - Node-Webkit (for Windows distribution)
+
+Legal:
+===================
+League of Legends - ChampionScreenSaver isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games
+or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks
+or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
+
+License:
+===================
+GNU 2

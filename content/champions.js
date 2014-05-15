@@ -1,22 +1,31 @@
 var champions = [{
-    "name": "Aatrox",
-    "skins": ["Skin1", "Skin2"]
+    name: "Aatrox",
+    skins: [0]
 }, {
-    "name": "Ahri"
+    name: "Ahri",
+    skins: [0]
 }, {
-    "name": "Akali"
+    name: "Akali",
+    skins: [0]
 }, {
-    "name": "Alistar"
+    name: "Alistar",
+    skins: [0]
 }, {
-    "name": "Amumu"
+    name: "Amumu",
+    skins: [0]
 }, {
-    "name": "Anivia"
+    name: "Anivia",
+    skins: [0]
 },{
-    "name": "Annie"
+    name: "Annie",
+    skins: [0]
 }, {
-    "name": "Ashe"
+    name: "Ashe",
+    skins: [0]
 }, {
-    "name": "Brand"
+    name: "Brand",
+    skins: [0]
 }, {
-    "name": "Caitlyn"
+    name: "Caitlyn",
+    skins: [0]
 }]
