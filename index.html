@@ -14,9 +14,10 @@
         <script src="content/config.js" type="text/javascript"></script>
         <script src="js/app.js" type="text/javascript"></script>
     </head>
-    <body ng-controller="mainController">
-        <div id="container">
-            <div class="slot" ng-repeat="item in slots" slot>
+    <body ng-controller="mainController" >
+        <div id="table">
+            <div id="row">
+                <div class="slot" ng-repeat="item in slots" slot />
             </div>
         </div>
     </body>

@@ -12,7 +12,7 @@ https://rawgit.com/bkniffler/ChampionScreenSaver/master/index.html?style=slide
 Installation
 ===================
 Mac:
-- Download WebXSaverII
+- Download WebXSaverII http://www.ncsu.edu/mac/downloads/webXsaverII.zip
 - Download https://github.com/bkniffler/ChampionScreenSaver/blob/master/bin/ChampionScreenSaver.zip
 - Put its content wherever you like
 - Point WebXSaverII to index.html
