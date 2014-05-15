@@ -6,6 +6,8 @@ A champion screensaver for League of Legends fans.
 Preview
 ===================
 https://rawgit.com/bkniffler/ChampionScreenSaver/master/index.html?style=fade
+https://rawgit.com/bkniffler/ChampionScreenSaver/master/index.html?style=slide
+(slide can suffer from performance issues due to heavy .css animations)
 
 Installation
 ===================
@@ -108,3 +110,10 @@ size: 95,
 // Color name or hex
 color: "black"
 ```
+
+Libraries used:
+===================
+- AngularJS (as a framework)
+- Underscore.js (as a helper)
+- Animate.css (for groovy animations)
+- Node-Webkit (for Windows distribution)
