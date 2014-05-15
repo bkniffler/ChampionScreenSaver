@@ -117,14 +117,17 @@ The current version does only have very few images. You're very welcome to contr
 
 Add champions and skins as
 ```
-- Splash (pictures with solid border), size: 378x1080
-- Classic (pictures with gradient border), size 308x560
+- Splash ("content/splash", pictures with solid border), size: 378x1080
+- Classic ("content/classic", pictures with gradient border), size 308x560
 ```
-Name these "[name of champion]_[skin number].jpg", e.g. Aatrox_0.jpg, Aatrox_1.jpg, Lux_0.jpg, ...
-The images can be found under League of Legends\RADS\projects\lol_air_client\releases\0.0.1.88\deploy\assets\images\champions
+Name these images "[name of champion]_[skin number].jpg", e.g. Aatrox_0.jpg, Aatrox_1.jpg, Lux_0.jpg, ...
+The images can be found under
+```
+League of Legends\RADS\projects\lol_air_client\releases\0.0.1.88\deploy\assets\images\champions
+```
 
 
-Now edit the content/champions.js file and add these skins
+Now edit the "content/champions.js" file and add them images
 ```
 var champions = [{
     name: "Aatrox",
