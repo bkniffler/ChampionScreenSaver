@@ -5,8 +5,8 @@ A champion screensaver for League of Legends fans.
 
 Preview
 ===================
-https://rawgit.com/bkniffler/ChampionScreenSaver/master/index.html?style=fade
-https://rawgit.com/bkniffler/ChampionScreenSaver/master/index.html?style=slide
+http://bkniffler.github.io/ChampionScreenSaver/?style=fade
+http://bkniffler.github.io/ChampionScreenSaver/?style=slide
 (slide might suffer from performance issues due to heavy .css animations)
 
 Installation
